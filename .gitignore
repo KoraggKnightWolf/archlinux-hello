@@ -1,0 +1,7 @@
+*~
+locale/*
+__pycache__/
+.idea/*
+
+# Unused lang po files
+po/da_DK.po
