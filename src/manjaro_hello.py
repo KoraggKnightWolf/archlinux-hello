@@ -96,7 +96,7 @@ class EmbedBrowser(Embed):
             from application_utility.browser.exceptions import NoAppInIsoError
             from application_utility.config.hello_config import HelloConfig
             try:
-                conf = HelloConfig(application="manjaro-hello")
+                conf = HelloConfig(application="archlinux-hello")
                 grid = Gtk.Grid()
                 grid.set_margin_left(5)
                 grid.set_margin_top(5)
@@ -123,8 +123,8 @@ class Hello(Gtk.Window):
     """Hello"""
 
     def __init__(self):
-        Gtk.Window.__init__(self, title="Manjaro Hello", border_width=6)
-        self.app = "manjaro-hello"
+        Gtk.Window.__init__(self, title="Arch Linux Hello", border_width=6)
+        self.app = "archlinux-hello"
         self.dev = "--dev" in sys.argv  # Dev mode activated ?
         screen = Gdk.Screen.get_default()
 
@@ -437,7 +437,7 @@ def get_lsb_infos():
                     lsb[var] = arg.strip('"')
     except (OSError, KeyError) as error:
         print(error)
-        return 'not Manjaro', '0.0'
+        return 'not ArchLinux', '0.0'
     return lsb["CODENAME"], lsb["RELEASE"]
 
 
