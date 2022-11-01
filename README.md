@@ -11,7 +11,9 @@ A: Copy it from data/img/archlinux.png into /usr/share/icons/hicolor/64x64/apps/
 Q: I get a python error about COENAME and RELEASE etc when launching it, how do I fix this?
 
 A: Edit the /etc/lsb-release file with a text editor (vim, nano, emacs etc) and add at the very bottom the following line:
+   
    DISTRIB_CODENAME="Arch"
+   
    The exact name is not relevant, however it must contain something, and Arch is an appropriate value on Arch Linux.
 
 
