@@ -1,19 +1,6 @@
 archlinux-hello
 =============
 
-F.A.Q: 
-
-
-Q: I get a python error about COENAME and RELEASE etc when launching it, how do I fix this?
-
-A: Edit the /etc/lsb-release file with a text editor (vim, nano, emacs etc) and add at the very bottom the following line:
-   
-      DISTRIB_CODENAME="Arch"
-  
-  The exact name is not relevant, however it must contain something, and Arch is an appropriate value on Arch Linux.
-
-
-
 
 WIP: English language file completely done, German one partially, others will not be altered.
 
