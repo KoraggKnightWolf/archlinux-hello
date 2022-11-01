@@ -2,6 +2,7 @@ manjaro-hello
 =============
 
 IMPORTANT: changes (also to the code) will be applied from time to time, it may at ANY time NOT compile/launch AT ALL!
+
 WIP: forking manjaro-hello to archlinux-hello for an Arch Linux equivalent.
 
 A tool providing access to documentation and support for new Manjaro users.
