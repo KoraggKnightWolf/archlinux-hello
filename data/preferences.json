@@ -20,7 +20,7 @@
         "mailling": "https://lists.archlinux.org/mailman3/lists/",
         "reddit": "https://www.reddit.com/r/archlinux/",
         "twitter": "https://twitter.com/archupdates",
-        "wiki": "https://wiki.archlinux.org/"
+        "wiki": "https://wiki.archlinux.org/",
         "irc": "https://web.libera.chat/#archlinux"
     }
 }
