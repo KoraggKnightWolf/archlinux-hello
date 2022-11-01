@@ -1,9 +1,6 @@
 archlinux-hello
 =============
 
-
-WIP: English language file completely done, German one partially, others will not be altered.
-
 A tool providing access to documentation and support for new Arch Linux users.
 
 ## What is Arch Linux Hello?
