@@ -1,17 +1,15 @@
-manjaro-hello
+archlinux-hello
 =============
 
-IMPORTANT: changes (also to the code) will be applied from time to time, it may at ANY time NOT compile/launch AT ALL!
+WIP: English language file completely done, German one partially, others will not be altered.
 
-WIP: forking manjaro-hello to archlinux-hello for an Arch Linux equivalent.
+A tool providing access to documentation and support for new Arch Linux users.
 
-A tool providing access to documentation and support for new Manjaro users.
+## What is Arch Linux Hello?
 
-## What is Manjaro Hello?
-
-Manjaro-hello is widely inspired by [manjaro-welcome](https://github.com/manjaro/manjaro-welcome).
-Currently, manjaro-hello has all the major features of manjaro-welcome plus a translation system.
-- Interface is translated using gettext and po files (po/).
+Archlinux-hello is widely inspired by [manjaro-hello](https://github.com/manjaro/manjaro-hello).
+Currently, archlinux-hello has all the major features of manjaro-hello, but with limited translations.
+- Interface is translated using gettext and po files (po/). Only german and english files will be adapted for archlinux-hello!
 - Pages are translated using differents files (data/pages).
 
 ## What goals ?
@@ -20,14 +18,14 @@ The goal of the project is to build a powerful user interface that allows the us
 
 ## Technologies
 
-Manjaro-hello is build with Python, Gtk3 and Glade.
+Archlinux-hello is build with Python, Gtk3 and Glade.
 
 ## TODO
 
 - Make more translations to distribute it in all the world.
 
 ## Links
-
+These point to files regarding the original base of this fork, manjaro-hello.
 - [Discussion from Manjaro's forum](https://forum.manjaro.org/t/start-work-on-a-new-welcome-screen-for-manjaro/13685)
 - [Translation project for Manjaro-Hello](https://www.transifex.com/manjarolinux/manjaro-hello)
 
