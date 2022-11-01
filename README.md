@@ -21,6 +21,9 @@ A tool providing access to documentation and support for new Arch Linux users.
 
 ## What is Arch Linux Hello?
 
+Archlinux-hello will generate a window with links/shortcuts to various sources, websites etc to obtain further information
+and knowledge about Arch Linux.
+
 Archlinux-hello is widely inspired by [manjaro-hello](https://github.com/manjaro/manjaro-hello).
 Currently, archlinux-hello has all the major features of manjaro-hello, but with limited translations.
 - Interface is translated using gettext and po files (po/). Only german and english files will be adapted for archlinux-hello!
