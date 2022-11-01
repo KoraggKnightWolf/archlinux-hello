@@ -1,2 +1,2 @@
-../ui/manjaro-hello.glade
-../src/manjaro_hello.py
+../ui/archlinux-hello.glade
+../src/archlinux_hello.py
