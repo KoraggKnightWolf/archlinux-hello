@@ -14,7 +14,7 @@ A: Edit the /etc/lsb-release file with a text editor (vim, nano, emacs etc) and 
    
       DISTRIB_CODENAME="Arch"
    
-   The exact name is not relevant, however it must contain something, and Arch is an appropriate value on Arch Linux.
+     The exact name is not relevant, however it must contain something, and Arch is an appropriate value on Arch Linux.
 
 
 
