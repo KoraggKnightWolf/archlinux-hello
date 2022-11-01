@@ -17,114 +17,114 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../ui/manjaro-hello.glade:56
-msgid "Welcome to Manjaro!"
+#: ../ui/archlinux-hello.glade:56
+msgid "Welcome to Arch Linux!"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:72
+#: ../ui/archlinux-hello.glade:72
 msgid ""
 "Thank you for joining our community!\n"
 "\n"
-"We, the Manjaro Developers, hope that you will enjoy using Manjaro as much "
+"We, the Arch Linux Developers, hope that you will enjoy using Arch Linux as much "
 "as we enjoy building it. The links below will help you get started with your "
 "new operating system. So enjoy the experience, and don't hesitate to send us "
 "your feedback."
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:90
+#: ../ui/archlinux-hello.glade:90
 msgid "DOCUMENTATION"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:104
+#: ../ui/archlinux-hello.glade:104
 msgid "SUPPORT"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:118
+#: ../ui/archlinux-hello.glade:118
 msgid "PROJECT"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:130
+#: ../ui/archlinux-hello.glade:130
 msgid "Read me"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:144
+#: ../ui/archlinux-hello.glade:144
 msgid "Release info"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:159
+#: ../ui/archlinux-hello.glade:159
 msgid "Wiki"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:164 ../ui/manjaro-hello.glade:195
-#: ../ui/manjaro-hello.glade:212 ../ui/manjaro-hello.glade:229
-#: ../ui/manjaro-hello.glade:246 ../ui/manjaro-hello.glade:263
+#: ../ui/archlinux-hello.glade:164 ../ui/archlinux-hello.glade:195
+#: ../ui/archlinux-hello.glade:212 ../ui/archlinux-hello.glade:229
+#: ../ui/archlinux-hello.glade:246 ../ui/archlinux-hello.glade:263
 msgid "Web resource"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:176
+#: ../ui/archlinux-hello.glade:176
 msgid "Get involved"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:190
+#: ../ui/archlinux-hello.glade:190
 msgid "Forums"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:207
+#: ../ui/archlinux-hello.glade:207
 msgid "Software"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:224
+#: ../ui/archlinux-hello.glade:224
 msgid "Mailing lists"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:241
+#: ../ui/archlinux-hello.glade:241
 msgid "Development"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:258
+#: ../ui/archlinux-hello.glade:258
 msgid "Donate"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:377
+#: ../ui/archlinux-hello.glade:377
 msgid "Launch at start"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:408
+#: ../ui/archlinux-hello.glade:408
 msgid "INSTALLATION"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:420
+#: ../ui/archlinux-hello.glade:420
 msgid "Launch installer"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:439
+#: ../ui/archlinux-hello.glade:439
 msgid "Applications"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:443
+#: ../ui/archlinux-hello.glade:443
 msgid "Common application selection"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:456
+#: ../ui/archlinux-hello.glade:456
 msgid "Gnome Layouts Manager"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:460
-msgid "Manjaro Gnome config tool"
+#: ../ui/archlinux-hello.glade:460
+msgid "Arch Linux Gnome config tool"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:504
+#: ../ui/archlinux-hello.glade:504
 msgid "Home"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:515 ../ui/manjaro-hello.glade:586
+#: ../ui/archlinux-hello.glade:515 ../ui/archlinux-hello.glade:586
 msgid "About"
 msgstr ""
 
-#: ../ui/manjaro-hello.glade:591
-msgid "Welcome screen for Manjaro"
+#: ../ui/archlinux-hello.glade:591
+msgid "Welcome screen for Arch Linux"
 msgstr ""
 
-#: ../src/manjaro_hello.py:306
+#: ../src/archlinux_hello.py:306
 msgid "Can't load page."
 msgstr ""
