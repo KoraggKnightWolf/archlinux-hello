@@ -438,7 +438,9 @@ def get_lsb_infos():
     except (OSError, KeyError) as error:
         print(error)
         return 'not ArchLinux', '0.0'
-    return lsb["CODENAME"], lsb["RELEASE"]
+    # return lsb["CODENAME"], lsb["RELEASE"]
+    # work without needing to change /etc/lsb-release on Arch Linux
+    return lsb["RELEASE"]
 
 
 if __name__ == "__main__":
