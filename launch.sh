@@ -9,7 +9,7 @@ cd po
 for lang in $(ls *.po); do
     lang=${lang::-3}
     mkdir -p ../locale/${lang//_/-}/LC_MESSAGES
-    msgfmt -c -o ../locale/${lang//_/-}/LC_MESSAGES/manjaro-hello.mo $lang.po
+    msgfmt -c -o ../locale/${lang//_/-}/LC_MESSAGES/archlinux-hello.mo $lang.po
 done
 cd ..
-python3 src/manjaro_hello.py --dev
+python3 src/archlinux_hello.py --dev
