@@ -440,7 +440,7 @@ def get_lsb_infos():
         return 'not ArchLinux', '0.0'
     # return lsb["CODENAME"], lsb["RELEASE"]
     # work without needing to change /etc/lsb-release on Arch Linux
-    return lsb["RELEASE"]
+    return lsb["DESCRIPTION"], lsb["RELEASE"]
 
 
 if __name__ == "__main__":
