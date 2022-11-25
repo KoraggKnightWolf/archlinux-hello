@@ -1,5 +1,8 @@
 # Change Log
 All notable changes to this project will be documented in this file.
+## [0.8.1] - 2022-11-23
+### Added
+- PKGBUILD script actually conflicts with manjaro-hello when installing archlinux-hello.
 ## [0.8.0] - 2022-11-01
 ### Added
 - Adapted all English and some German files for Arch Linux support instead of Manjaro.
