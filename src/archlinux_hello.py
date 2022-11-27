@@ -64,61 +64,6 @@ class Embed:
         if self.loaded:
             window.builder.get_object("stack").add_named(self.box, self.name + "page")
 
-class EmbedLayouts(Embed):
-    """Gnome layout switcher"""
-    def load(self, window: Gtk.Window) -> bool:
-        try:
-            from layoutswitcherlib.layoutsbox import LayoutBox
-            try:
-                self.box = LayoutBox(window, usehello=True)
-                grid = Gtk.Grid()
-                grid.set_margin_left(15)
-                image = Gtk.Image(stock=Gtk.STOCK_GO_BACK)
-                backBtn=Gtk.Button(label=None, image=image)
-                backBtn.set_name("home")
-                backBtn.connect("clicked", self.on_btn_clicked,window)
-                grid.attach (backBtn, 0, 0, 1, 1)
-                self.box.pack_start(grid, expand=False, fill=False, padding=10)
-                self.box.reorder_child(grid,0)
-                self.box.show_all();
-            except Exception as err:
-                print("Error in Embled application:", err)
-        except ModuleNotFoundError as err:
-            print(f"Info: Gnome-layout-switcher not installed")
-        self.loaded = self.box is not None
-        return self.loaded
-
-class EmbedBrowser(Embed):
-    """Application-utility"""
-    def load(self, window: Gtk.Window) -> bool:
-        try:
-            from application_utility.browser.application_browser import ApplicationBrowser
-            from application_utility.browser.exceptions import NoAppInIsoError
-            from application_utility.config.hello_config import HelloConfig
-            try:
-                conf = HelloConfig(application="archlinux-hello")
-                grid = Gtk.Grid()
-                grid.set_margin_left(5)
-                grid.set_margin_top(5)
-                grid.set_margin_bottom(5)
-                image = Gtk.Image(stock=Gtk.STOCK_GO_BACK)
-                backBtn=Gtk.Button(label=None, image=image)
-                backBtn.set_name("home")
-                backBtn.connect("clicked", self.on_btn_clicked,window)
-                grid.attach (backBtn, 0, 1, 1, 1)
-                app=ApplicationBrowser(conf, window)
-                app.info_bar_appstream.pack_start(grid, expand=False, fill=False, padding=10)
-                app.info_bar_appstream.reorder_child(grid,0)
-                app.show_all()
-                self.box = app
-            except Exception as err:
-                print("Error in Embled application:", err)
-        except ModuleNotFoundError as err:
-            print(f"Info: Application-utility not installed")
-        self.loaded = self.box is not None
-        return self.loaded
-
-
 class Hello(Gtk.Window):
     """Hello"""
 
