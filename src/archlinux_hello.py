@@ -156,7 +156,6 @@ class Hello(Gtk.Window):
             self.builder.get_object("install").set_visible(True)
         # Installed systems
         else:
-            manager = EmbedManager(EmbedBrowser(), EmbedLayouts())
             manager.get_modules(self)
             manager.display(self)
 
