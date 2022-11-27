@@ -150,15 +150,6 @@ class Hello(Gtk.Window):
         self.autostart = os.path.isfile(fix_path(self.preferences["autostart_path"]))
         self.builder.get_object("autostart").set_active(self.autostart)
 
-        # Live systems
-        if os.path.exists(self.preferences["live_path"]) and os.path.isfile(self.preferences["installer_path"]):
-            self.builder.get_object("installlabel").set_visible(True)
-            self.builder.get_object("install").set_visible(True)
-        # Installed systems
-        else:
-            manager.get_modules(self)
-            manager.display(self)
-
         self.window.show()
 
     def get_best_locale(self):
