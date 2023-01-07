@@ -1,5 +1,8 @@
 # Change Log
 All notable changes to this project will be documented in this file.
+## [0.8.3] - 2023-01-07
+### Changed
+- PKGBUILD now with additional provides="archlinux-hello" field for improved formal correctness.
 ## [0.8.2] - 2022-11-27
 ### Changed
 - Removed parts of code that attempt to use Application-utility and gnome-layout-switcher which do not exist on Arch Linux.
